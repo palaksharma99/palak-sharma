@@ -1,0 +1,23 @@
+#include <stdio.h>
+int main(){
+char ch;
+printf("\nEnter Any Character :");
+scanf("%c", & ch);
+if(ch>='0'&&ch<='9')
+{
+printf("\nEnteredCharacter isDigit");
+} 
+elseif(ch>='A' &&ch<='Z') 
+{
+printf("\nEnteredCharacterisCapitalLetter");
+} 
+elseif(ch>='a' &&ch<='z') 
+{
+printf("\nEnteredCharacter isSmallLetter");
+}
+else
+{
+printf("\nEnteredCharacterisSpecialCharacter");
+}
+return0;
+}
