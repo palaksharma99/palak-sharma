@@ -38,5 +38,5 @@ break;
 default:
 printf("Consonant");
 }
-return0;
+return 0;
 }
